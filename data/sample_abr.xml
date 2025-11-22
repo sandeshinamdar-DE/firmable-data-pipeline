@@ -1,0 +1,32 @@
+<ABRData>
+    <Entity>
+        <ABN>12345678901</ABN>
+        <EntityName>ACME PTY LTD</EntityName>
+        <EntityType>PTY LTD</EntityType>
+        <EntityStatus>Active</EntityStatus>
+        <AddressLine>123 KING ST</AddressLine>
+        <Postcode>2000</Postcode>
+        <State>NSW</State>
+        <StartDate>2015-01-01</StartDate>
+    </Entity>
+    <Entity>
+        <ABN>98765432100</ABN>
+        <EntityName>BLUE OCEAN CONSULTING</EntityName>
+        <EntityType>Business</EntityType>
+        <EntityStatus>Active</EntityStatus>
+        <AddressLine>45 MARKET ROAD</AddressLine>
+        <Postcode>3000</Postcode>
+        <State>VIC</State>
+        <StartDate>2017-03-15</StartDate>
+    </Entity>
+    <Entity>
+        <ABN>11223344556</ABN>
+        <EntityName>WILLOW BEAUTY</EntityName>
+        <EntityType>Sole Trader</EntityType>
+        <EntityStatus>Cancelled</EntityStatus>
+        <AddressLine>78 HIGH STREET</AddressLine>
+        <Postcode>5000</Postcode>
+        <State>SA</State>
+        <StartDate>2020-11-10</StartDate>
+    </Entity>
+</ABRData>

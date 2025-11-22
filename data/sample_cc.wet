@@ -1,0 +1,40 @@
+WARC/1.0
+WARC-Type: conversion
+WARC-Target-URI: https://acme.com.au
+Content-Length: 200
+
+<html>
+<head>
+<title>ACME Pty Ltd</title>
+<meta name="industry" content="Technology">
+</head>
+<body>Welcome to ACME Australia</body>
+</html>
+
+
+WARC/1.0
+WARC-Type: conversion
+WARC-Target-URI: https://blueocean.com.au
+Content-Length: 200
+
+<html>
+<head>
+<title>Blue Ocean Consulting</title>
+<meta name="industry" content="Consulting">
+</head>
+<body>Blue ocean is a consulting firm</body>
+</html>
+
+
+WARC/1.0
+WARC-Type: conversion
+WARC-Target-URI: https://willowbeauty.com.au
+Content-Length: 200
+
+<html>
+<head>
+<title>Willow Beauty</title>
+<meta name="industry" content="Beauty">
+</head>
+<body>Willow Beauty Salon in Australia</body>
+</html>

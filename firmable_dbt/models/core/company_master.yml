@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: company_master
+    description: "Unified company master table with deterministic, fuzzy, and LLM matches"
+    columns:
+      - name: abr_id
+        tests:
+          - not_null
+
+      - name: cc_id
+        tests:
+          - not_null
+
+      - name: unified_name
+        tests:
+          - not_null
+
+      - name: match_score
+        tests:
+          - not_null

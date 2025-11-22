@@ -1,0 +1,3 @@
+{"abn": "12345678901", "entity_name": "ACME PTY LTD", "entity_type": "PTY LTD", "entity_status": "Active", "address": "123 KING ST", "postcode": "2000", "state": "NSW", "start_date": "2015-01-01", "abn_valid": false, "ingest_date": "2025-11-22"}
+{"abn": "98765432100", "entity_name": "BLUE OCEAN CONSULTING", "entity_type": "Business", "entity_status": "Active", "address": "45 MARKET ROAD", "postcode": "3000", "state": "VIC", "start_date": "2017-03-15", "abn_valid": false, "ingest_date": "2025-11-22"}
+{"abn": "11223344556", "entity_name": "WILLOW BEAUTY", "entity_type": "Sole Trader", "entity_status": "Cancelled", "address": "78 HIGH STREET", "postcode": "5000", "state": "SA", "start_date": "2020-11-10", "abn_valid": false, "ingest_date": "2025-11-22"}
