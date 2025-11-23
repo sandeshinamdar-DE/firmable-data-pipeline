@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# dbt
+target/
+dbt_packages/
+
+# Logs
+*.log
+
+# Data
+*.sqlite
+*.db
+
+# OS
+Thumbs.db
+
+# Large output data (optional)
+data/*.wet
+data/*.xml
+data/*.xml.gz
