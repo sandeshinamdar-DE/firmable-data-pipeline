@@ -217,26 +217,41 @@ Combines:
 
 ---
 
-# 9️⃣ Full Pipeline Reproduction Steps
+## 9️⃣ Full Pipeline Reproduction Steps
+
+Clone repository:
+
+```bash
 git clone https://github.com/sandeshinamdar-DE/firmable-data-pipeline
 cd firmable-data-pipeline
+
+Start PostgreSQL using Docker:
 docker-compose up -d
+
+Create and activate Python virtual environment:
 python -m venv venv
 venv\Scripts\activate
+
+Install dependencies:
 pip install -r requirements.txt
 
+Run data extraction:
 python etl/extract_abr.py data/sample_abr.xml.gz data/abr_output.jsonl
 python etl/extract_commoncrawl.py data/sample_cc.wet data/cc_output.jsonl
 
+Load extracted data into PostgreSQL:
 python etl/load_abr_to_db.py data/abr_output.jsonl
 python etl/load_cc_to_db.py data/cc_output.jsonl
 
+Compute partition hashes:
 python etl/compute_partition_hash.py abr data/abr_output.jsonl
 python etl/compute_partition_hash.py commoncrawl data/cc_output.jsonl
 
+Run fuzzy and LLM matching:
 python etl/fuzzy_match.py
 python etl/llm_match.py
 
+Run dbt models and tests:
 cd firmable_dbt
 dbt run
 dbt test
